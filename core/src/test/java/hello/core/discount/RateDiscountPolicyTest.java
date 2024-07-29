@@ -18,8 +18,7 @@ class RateDiscountPolicyTest {
         // when
         int discount = discountPolicy.discount(member, 10000);
         // then
-        assertThat(discount).isEqualTo(1000);
-    }
+        assertThat(discount).isEqualTo(1000);    }
 
     @Test
     @DisplayName("BASIC은 할인이 적용되지 않는다")
